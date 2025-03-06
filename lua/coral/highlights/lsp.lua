@@ -42,6 +42,9 @@ function M.setup(theme, config)
     ['@lsp.type.typeParameter'] = { link = '@type' }, -- TODO: Determine accuracy
 
     ['@lsp.type.variable'] = { link = '@variable' },
+    ['@lsp.typemod.variable.globalScope'] = { fg = theme.syntax.global },
+    ['@lsp.typemod.variable.fileScope'] = { fg = theme.syntax.global },
+    ['@lsp.typemod.variable.classScope'] = { link = '@variable.member' },
     ['@lsp.typemod.variable.defaultLibrary'] = { link = '@variable.builtin' }
   }
 

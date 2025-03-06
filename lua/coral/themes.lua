@@ -8,6 +8,7 @@ function M.setup(color, config)
   theme.syntax = {
     builtin = color.blue0,
     variable = color.gray2,
+    global = color.gray4,
     parameter = color.gray4,
     constant = color.blue1,
     macro = color.coral2,
