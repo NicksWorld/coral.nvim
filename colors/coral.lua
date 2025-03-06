@@ -1,0 +1,1 @@
+require('coral').load()
